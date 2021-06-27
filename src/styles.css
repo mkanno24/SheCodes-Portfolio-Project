@@ -7,6 +7,10 @@
   --second-font-family: "Poppins", sans-serif;
 }
 
+img {
+  padding: 30px;
+  border-radius: 10px;
+}
 .hero {
   background-color: var(--brand-primary);
   padding: 120px;
@@ -44,3 +48,66 @@
   margin-top: 30px;
   width: 200px;
 }
+
+.sub-title-hero {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  font-family: var(--second-font-family);
+}
+.sub-title-hero {
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+.project-list-header {
+  font-family: var(--heading-font-family);
+  font-size: 64px;
+}
+
+.project-list-description {
+  font-size: 16px;
+  font-family: var(--second-font-family);
+  line-height: 1.5;
+  font-weight: lighter;
+  margin-top: 35px;
+}
+
+.btn-secondary {
+  background: white;
+  color: var(--brand-secondary);
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.project-list-block {
+  padding-top: 50px;
+}
+
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 60px;
+    text-align: center;
+  }
+  .hero h2 {
+    font-size: 18px;
+    line-height: 1.25;
+    text-align: center;
+  }
+  .hero p {
+    font-size: 30px;
+    font-weight: normal;
+    text-align: center;
+  }
+  .sub-title-hero {
+    margin-top: 45px;
+    margin-bottom: 0;
+
+    .project-list-block {
+      text-align: center;
+      padding: 15px;
+    }
+  }
+
+
