@@ -7,6 +7,7 @@
   --second-font-family: "Poppins", sans-serif;
 }
 
+
 img {
   padding: 30px;
   border-radius: 10px;
@@ -52,7 +53,7 @@ img {
 .sub-title-hero {
   text-align: center;
   margin-top: 100px;
-  margin-bottom: 100px;
+  margin-bottom: 30px;
   font-family: var(--second-font-family);
 }
 .sub-title-hero {
@@ -83,6 +84,9 @@ img {
 
 .project-list-block {
   padding-top: 50px;
+  max-width: 85%;
+  display: block;
+  margin: auto;
 }
 
 @media (max-width: 768px) {
