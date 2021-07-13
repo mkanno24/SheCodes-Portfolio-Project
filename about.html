@@ -3,7 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>About Mika Kanno a talented front-end developer</title>
+    <meta
+      name="description"
+      content="Learn all about Mika and her journey into web developement"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -30,17 +34,27 @@
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
-        <img src="/images/logo.png" class="logo d-none d-md-block" alt="" />
+        <img
+          src="/images/logo.png"
+          class="logo d-none d-md-block"
+          alt="Mika Kanno logo"
+        />
         <img
           src="/images/mobile-logo.png"
           class="logo-mobile d-block d-sm-none"
-          alt=""
+          alt="Mika Kanno mobile Logo"
         />
         <ul class="main-menu">
-          <li><a href="/">Home</a></li>
-          <li class="active"><a href="/about.html">About</a></li>
-          <li><a href="/work.html">Work</a></li>
-          <li><a href="/contact.html">Contact</a></li>
+          <li>
+            <a href="/" title="Homepage for Mika Kanno's site">Home</a>
+          </li>
+          <li class="active">
+            <a href="/about.html" title="about Mika Kanno">About</a>
+          </li>
+          <li><a href="/work.html" title="Mika's Work">Work</a></li>
+          <li>
+            <a href="/contact.html" title="Get in touch with Mika">Contact</a>
+          </li>
         </ul>
       </nav>
     </div>
@@ -55,7 +69,7 @@
             everything is well explained, homework and deadlines are good for
             keep focus
           </p>
-          <a href="#" class="btn btn-primary">View all projects</a>
+          <a href="/work.html" class="btn btn-primary">View all projects</a>
         </div>
         <div class="col-lg-6">
           <img src="/images/Profile_Pic.png" class="img-fluid" alt="" />
@@ -71,19 +85,45 @@
           </p>
         </div>
         <div>
-          <a href="" class="btn btn-primary">Let's talk</a>
+          <a href="/contact.html" class="btn btn-primary">Let's talk</a>
         </div>
       </div>
       <div class="d-flex justify-content-center mb-5">
-        <a href="mailto:mikakanno.24@gmail.com" class="email-link"
+        <a
+          href="mailto:mikakanno.24@gmail.com"
+          target="_blank"
+          class="email-link"
           >mikakanno.24@gmail.com</a
         >
       </div>
       <div class="social-icon-block d-flex justify-content-center">
-        <a href="" class="social-icon"> <i class="fab fa-instagram"></i> </a>
-        <a href="" class="social-icon"> <i class="fab fa-twitter"></i></a>
-        <a href="" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+        <a
+          href="https://www.instagram.com/mkkanno/"
+          target="_blank"
+          class="social-icon"
+        >
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a
+          href="https://twitter.com/mkanno24"
+          target="_blank"
+          class="social-icon"
+        >
+          <i class="fab fa-twitter"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/mikakanno/"
+          target="_blank"
+          class="social-icon"
+          ><i class="fab fa-linkedin-in"></i
+        ></a>
       </div>
+      <p class="text-center mt-5">
+        This project was coded by Mika and it is
+        <a href="https://github.com/mkanno24/SheCodes-Portfolio-Project"
+          >open sourced</a
+        >
+      </p>
     </footer>
   </body>
 </html>
