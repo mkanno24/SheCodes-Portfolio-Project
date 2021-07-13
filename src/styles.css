@@ -259,3 +259,63 @@ nav li.active a {
     max-width: 20px;
   }
 }
+
+footer {
+  padding: 60px, 0;
+}
+
+footer .contact-box {
+  background-color: var(--brand-primary);
+  text-align: center;
+  padding: 30px, 120px;
+  border-radius: 10px;
+  margin-left: 140px;
+  margin-right: 140px;
+  margin-top: 160px;
+}
+
+.contact-box h4 {
+  font-size: 48px;
+  font-weight: bold;
+  font-family: var(--heading-font-family);
+  margin-left: 100px;
+  margin-top: 49px;
+}
+
+.contact-box p {
+  line-height: 2;
+  padding-top: 18px;
+  padding-left: 150px;
+}
+
+.contact-box .btn-primary {
+  margin-top: 85px;
+  margin-right: 125px;
+  margin-bottom: 55px;
+}
+
+.email-link {
+  font-family: var(--second-font-family);
+  text-decoration: none;
+  color: var(--brand-secondary);
+  font-size: 24px;
+  margin-top: 60px;
+}
+
+.social-icon {
+  color: var(--secondary-cta-color);
+  background-color: #f8f7ff;
+  margin: 20px;
+  font-size: 18px;
+  border-radius: 50%;
+  padding: 15px;
+  transition: all 150ms ease-in-out;
+}
+
+.social-icon :hover {
+  color: var(--primary-cta-color);
+}
+
+.social-icon-block {
+  margin-top: 0px;
+}
